@@ -3,16 +3,22 @@ import java.util.ArrayList;
 public class main {
     public static void main(String[] args) {
 
+        Produto produto = new Produto("Celular", 1900.00);
+        Produto produto1 = new Produto("Celular", 1800.00);
+        Produto produto2 = new Produto("Celular", 1700.00);
+        Produto produto3 = new Produto("Celular", 1500.00);
+        Produto produto4 = new Produto("Celular", 1400.00);
+
+        Pedido pedido = new Pedido(produto.valor);
 
 
 
 
+        PatoDeCabecaVermelha patoVermelho = new PatoDeCabecaVermelha();
+        patoVermelho.voar();
 
-
-
-
-
-
+        PatoCibernetico jetPato = new PatoCibernetico();
+        jetPato.voar();
 
 
         //    Macaco macaco = new Macaco();

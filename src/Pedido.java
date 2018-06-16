@@ -4,9 +4,7 @@ public class Pedido {
     Double Total;
     ArrayList<Produto> produto = new ArrayList();
 
-    Pedido(String nome, Double valor) {
-
-
+    Pedido(Double valor) {
     }
 
     public void adicionarProduto(Produto valor){

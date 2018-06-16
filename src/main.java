@@ -4,8 +4,10 @@ public class main {
     public static void main(String[] args) {
     Macaco macaco = new Macaco();
     macaco.comerBanana();
+    macaco.comerBanana();
+    macaco.comerBanana();
     macaco.andar();
-
+    System.out.println(macaco.setBananasComidas());
 
 //        Pessoa pessoa = new Pessoa("Endrick", "87060102", "rua Baçidasd", "390", "Casa", "JD Santa Rosa", "Maringá", "Paraná", "44 9986-9560");
 //

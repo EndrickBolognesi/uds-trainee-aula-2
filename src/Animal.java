@@ -1,7 +1,10 @@
 abstract class Animal {
     protected Integer velocidade = 0;
 
-    public abstract void andar();
+    public void andar() {
+        this.velocidade += 2;
+     }
+
 
 
 

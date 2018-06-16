@@ -2,10 +2,14 @@ import java.util.ArrayList;
 
 public class main {
     public static void main(String[] args) {
+    Macaco macaco = new Macaco();
+    macaco.comerBanana();
+    macaco.andar();
 
-        Pessoa pessoa = new Pessoa("Endrick", "87060102", "rua Baçidasd", "390", "Casa", "JD Santa Rosa", "Maringá", "Paraná", "44 9986-9560");
 
-        System.out.println(pessoa.obterInformacoes());
+//        Pessoa pessoa = new Pessoa("Endrick", "87060102", "rua Baçidasd", "390", "Casa", "JD Santa Rosa", "Maringá", "Paraná", "44 9986-9560");
+//
+//        System.out.println(pessoa.obterInformacoes());
 
       /*ArrayList<String> meuArray = new ArrayList();
         meuArray.add("Endrick \n");
